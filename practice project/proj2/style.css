@@ -1,0 +1,31 @@
+body {
+    /*height: 100vh;*/
+    background: linear-gradient(45deg,#3282a6, #ff6b6b, #0000ff);
+    background-size: 400% 400%;
+    animation: animate 2s infinite alternate;
+}
+@keyframes animate {
+    0% {
+        background-position: 0% 50%; 
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+.navbar{
+    background: transparent !important;
+}
+.navbar-brand{
+    color: #fff;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+}
+.navbar-brand:focus, 
+.navbar-brand:hover {
+    color: #fff !important;
+}
+.nav-link{
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
